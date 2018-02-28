@@ -1,0 +1,349 @@
+body .submit-cards{
+	width:42px;
+	height:60px;
+	background-color: rgb(255, 126, 233);
+}
+
+
+
+body .submitted-three-pokers-0-0-0{
+	position:absolute;
+	left: 220px;
+	top: 230px;
+	transform: translate(0px,0px);
+	z-index:1;
+}
+body .submitted-three-pokers-0-0-1{
+	position:absolute;
+	left: 230px;
+	top: 230px;
+	transform: translate(0px,0px);
+	z-index:2;
+}
+body .submitted-three-pokers-0-0-2{
+	position:absolute;
+	left: 240px;
+	top: 230px;
+	transform: translate(0px,0px);
+	z-index:3;
+}
+body .submitted-three-pokers-0-1-0{
+	position:absolute;
+	left: 225px;
+	top: 250px;
+	transform: translate(0px,0px);
+	z-index:4;
+}
+body .submitted-three-pokers-0-1-1{
+	position:absolute;
+	left: 235px;
+	top: 250px;
+	transform: translate(0px,0px);
+	z-index:5;
+}
+body .submitted-three-pokers-0-1-2{
+	position:absolute;
+	left: 245px;
+	top: 250px;
+	transform: translate(0px,0px);
+	z-index:6;
+}
+body .submitted-three-pokers-0-2-0{
+	position:absolute;
+	left: 230px;
+	top: 270px;
+	transform: translate(0px,0px);
+	z-index:7;
+}
+body .submitted-three-pokers-0-2-1{
+	position:absolute;
+	left: 240px;
+	top: 270px;
+	transform: translate(0px,0px);
+	z-index:8;
+}
+body .submitted-three-pokers-0-2-2{
+	position:absolute;
+	left: 250px;
+	top: 270px;
+	transform: translate(0px,0px);
+	z-index:9;
+}
+body .submitted-three-pokers-1-0-0{
+	position:absolute;
+	left: 60px;
+	top: 120px;
+	transform: translate(0px,0px);
+	z-index:1;
+}
+
+body .submitted-three-pokers-1-0-1{
+	position:absolute;
+	left: 70px;
+	top: 120px;
+	transform: translate(0px,0px);
+	z-index:2;
+}
+body .submitted-three-pokers-1-0-2{
+	position:absolute;
+	left: 80px;
+	top: 120px;
+	transform: translate(0px,0px);
+	z-index:3;
+}
+body .submitted-three-pokers-1-1-0{
+	position:absolute;
+	left: 65px;
+	top: 140px;
+	transform: translate(0px,0px);
+	z-index:4;
+}
+body .submitted-three-pokers-1-1-1{
+	position:absolute;
+	left: 75px;
+	top: 140px;
+	transform: translate(0px,0px);
+	z-index:5;
+}
+body .submitted-three-pokers-1-1-2{
+	position:absolute;
+	left: 85px;
+	top: 140px;
+	transform: translate(0px,0px);
+	z-index:6;
+}
+body .submitted-three-pokers-1-2-0{
+	position:absolute;
+	left: 70px;
+	top: 160px;
+	transform: translate(0px,0px);
+	z-index:7;
+}
+body .submitted-three-pokers-1-2-1{
+	position:absolute;
+	left: 80px;
+	top: 160px;
+	transform: translate(0px,0px);
+	z-index:8;
+}
+body .submitted-three-pokers-1-2-2{
+	position:absolute;
+	left: 90px;
+	top: 160px;
+	transform: translate(0px,0px);
+	z-index:9;
+}
+
+body .submitted-three-pokers-2-0-0{
+	position:absolute;
+	left: 160px;
+	top: 30px;
+	transform: translate(0px,0px);
+	z-index:1;
+}
+body .submitted-three-pokers-2-0-1{
+	position:absolute;
+	left: 170px;
+	top: 30px;
+	transform: translate(0px,0px);
+	z-index:2;
+}
+body .submitted-three-pokers-2-0-2{
+	position:absolute;
+	left: 180px;
+	top: 30px;
+	transform: translate(0px,0px);
+	z-index:3;
+}
+body .submitted-three-pokers-2-1-0{
+	position:absolute;
+	left: 165px;
+	top: 50px;
+	transform: translate(0px,0px);
+	z-index:4;
+}
+body .submitted-three-pokers-2-1-1{
+	position:absolute;
+	left: 175px;
+	top: 50px;
+	transform: translate(0px,0px);
+	z-index:5;
+}
+body .submitted-three-pokers-2-1-2{
+	position:absolute;
+	left: 185px;
+	top: 50px;
+	transform: translate(0px,0px);
+	z-index:6;
+}
+body .submitted-three-pokers-2-2-0{
+	position:absolute;
+	left: 170px;
+	top: 70px;
+	transform: translate(0px,0px);
+	z-index:7;
+}
+body .submitted-three-pokers-2-2-1{
+	position:absolute;
+	left: 180px;
+	top: 70px;
+	transform: translate(0px,0px);
+	z-index:8;
+}
+body .submitted-three-pokers-2-2-2{
+	position:absolute;
+	left: 190px;
+	top: 70px;
+	transform: translate(0px,0px);
+	z-index:9;
+}
+
+body .submitted-three-pokers-3-0-0{
+	position:absolute;
+	right: 210px;
+	left:unset;
+	top: 30px;
+	transform: translate(0px,0px);
+	z-index:1;
+}
+body .submitted-three-pokers-3-0-1{
+	position:absolute;
+	right: 200px;
+	left:unset;
+	top: 30px;
+	transform: translate(0px,0px);
+	z-index:2;
+}
+body .submitted-three-pokers-3-0-2{
+	position:absolute;
+	right: 190px;
+	left:unset;
+	top: 30px;
+	transform: translate(0px,0px);
+	z-index:3;
+}
+body .submitted-three-pokers-3-1-0{
+	position:absolute;
+	right: 215px;
+	left:unset;
+	top: 50px;
+	transform: translate(0px,0px);
+	z-index:4;
+}
+body .submitted-three-pokers-3-1-1{
+	position:absolute;
+	right: 205px;
+	left:unset;
+	top: 50px;
+	transform: translate(0px,0px);
+	z-index:5;
+}
+body .submitted-three-pokers-3-1-2{
+	position:absolute;
+	right: 195px;
+	left:unset;
+	top: 50px;
+	transform: translate(0px,0px);
+	z-index:6;
+}
+body .submitted-three-pokers-3-2-0{
+	position:absolute;
+	right: 220px;
+	left:unset;
+	top: 70px;
+	transform: translate(0px,0px);
+	z-index:7;
+}
+body .submitted-three-pokers-3-2-1{
+	position:absolute;
+	right: 210px;
+	left:unset;
+	top: 70px;
+	transform: translate(0px,0px);
+	z-index:8;
+}
+body .submitted-three-pokers-3-2-2{
+	position:absolute;
+	right: 200px;
+	left:unset;
+	top: 70px;
+	transform: translate(0px,0px);
+	z-index:9;
+}
+
+body .submitted-three-pokers-4-0-0{
+	position:absolute;
+	right: 120px;
+	left:unset;
+	top: 120px;
+	transform: translate(0px,0px);
+	z-index:1;
+}
+body .submitted-three-pokers-4-0-1{
+	position:absolute;
+	right: 110px;
+	left:unset;
+	top: 120px;
+	transform: translate(0px,0px);
+	z-index:2;
+}
+body .submitted-three-pokers-4-0-2{
+	position:absolute;
+	right: 100px;
+	left:unset;
+	top: 120px;
+	transform: translate(0px,0px);
+	z-index:3;
+}
+body .submitted-three-pokers-4-1-0{
+	position:absolute;
+	right: 125px;
+	left:unset;
+	top: 140px;
+	transform: translate(0px,0px);
+	z-index:4;
+}
+body .submitted-three-pokers-4-1-1{
+	position:absolute;
+	right: 115px;
+	left:unset;
+	top: 140px;
+	transform: translate(0px,0px);
+	z-index:5;
+}
+body .submitted-three-pokers-4-1-2{
+	position:absolute;
+	right: 105px;
+	left:unset;
+	top: 140px;
+	transform: translate(0px,0px);
+	z-index:6;
+}
+body .submitted-three-pokers-4-2-0{
+	position:absolute;
+	right: 130px;
+	left:unset;
+	top: 160px;
+	transform: translate(0px,0px);
+	z-index:7;
+}
+body .submitted-three-pokers-4-2-1{
+	position:absolute;
+	right: 120px;
+	left:unset;
+	top: 160px;
+	transform: translate(0px,0px);
+	z-index:8;
+}
+body .submitted-three-pokers-4-2-2{
+	position:absolute;
+	right: 110px;
+	left:unset;
+	top: 160px;
+	transform: translate(0px,0px);
+	z-index:9;
+}
+
+body .cards-0,body .cards-1,body .cards-2,body .cards-3,body .cards-4{
+	display:none;
+}

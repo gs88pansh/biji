@@ -1,0 +1,47 @@
+.ready{
+	border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 6px 8px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+    background-color: #cbce19;
+    text-align: center;
+    transition: .2s ease-out;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.12), 0px 1px 2px rgba(0,0,0,0.24);
+    font-family: '微软雅黑';
+    border-radius: 12px;
+    position: absolute;
+	font-size:12px
+}
+
+body .ready-pos-0{
+	display:none;
+	bottom:40px;
+	right:300px;
+}
+body .ready-pos-1{
+	display:none;
+	top:180px;
+	left:60px;
+}
+body .ready-pos-2{
+	display:none;
+	top:90px;
+	left:150px;
+}
+body .ready-pos-3{
+	display:none;
+	top:90px;
+	right:150px;
+	
+}
+body .ready-pos-4{
+	display:none;
+	top:180px;
+	right:60px;
+}

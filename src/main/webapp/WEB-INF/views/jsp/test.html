@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>巢湖人的比鸡</title>
+
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="css/default.css">
+
+<link rel="stylesheet" type="text/css" href="css/person.css?1">
+<link rel="stylesheet" type="text/css" href="css/sandao.css">
+<link rel="stylesheet" type="text/css" href="css/gameover.css">
+<link rel="stylesheet" type="text/css" href="css/ready.css">
+<link rel="stylesheet" type="text/css" href="css/cards.css?11">
+<link href="css/example.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="room_id" style="position:absolute;left:0;top:0;color:white"></div>
+<div id="numth" style="position:absolute;left:0;top:15px;color:white"></div>
+
+<article class="zzsc-container">
+
+	<div id="container"></div>
+	<!--div id="topbar"></div-->
+	
+</article>
+
+<div id="loadingWrapper" class="sandao">
+
+	<div class="toudao">
+		<div class="tou_h"><div class="tou_hp"><p>头</p></div></div>
+		<div class="tou_content"><div id="tou_id" class="tou_contentp"></div></div>
+	</div>
+	<div class="zhongdao">
+		<div class="zhong_h"><div class="zhong_hp"><p>中</p></div></div>
+		<div class="zhong_content"><div id="zhong_id" class="zhong_contentp"></div></div>
+	</div>
+	<div class="weidao">
+		<div class="wei_h"><div class="wei_hp"><p>尾</p></div></div>
+		<div class="wei_content"><div id="wei_id" class="wei_contentp"></div></div>
+	</div>
+	
+	<p class="pity giveup">
+		弃牌
+	</p>
+	
+	<p class="pity submit">
+		提交
+	</p>
+
+	<div id='messages' style="display:none">
+	</div>
+	
+</div>
+
+<p class="ready ready-pos-0">
+	准备
+</p>
+<p class="ready ready-pos-1">
+	准备
+</p>
+<p class="ready ready-pos-2">
+	准备
+</p>
+<p class="ready ready-pos-3">
+	准备
+</p>
+<p class="ready ready-pos-4">
+	准备
+</p>
+
+<!--p style="width:50px;height:70px" class="ready person-pos-0">
+	准备
+</p>
+<p style="width:50px;height:70px" class="ready person-pos-1">
+	准备
+</p>
+<p style="width:50px;height:70px" class="ready person-pos-2">
+	准备
+</p>
+<p style="width:50px;height:70px" class="ready person-pos-3">
+	准备
+</p>
+<p style="width:50px;height:70px" class="ready person-pos-4">
+	准备
+</p-->
+
+
+
+<div class="card submitted-three-pokers-0-0-0 submit-cards cards-0"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-0-0-1 submit-cards cards-0"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-0-0-2 submit-cards cards-0"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-0-1-0 submit-cards cards-0"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-0-1-1 submit-cards cards-0"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-0-1-2 submit-cards cards-0"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-0-2-0 submit-cards cards-0"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-0-2-1 submit-cards cards-0"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-0-2-2 submit-cards cards-0"><div class="face face-background"></div></div>
+
+<div class="card submitted-three-pokers-1-0-0 submit-cards cards-1"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-1-0-1 submit-cards cards-1"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-1-0-2 submit-cards cards-1"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-1-1-0 submit-cards cards-1"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-1-1-1 submit-cards cards-1"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-1-1-2 submit-cards cards-1"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-1-2-0 submit-cards cards-1"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-1-2-1 submit-cards cards-1"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-1-2-2 submit-cards cards-1"><div class="face face-background"></div></div>
+
+<div class="card submitted-three-pokers-2-0-0 submit-cards cards-2"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-2-0-1 submit-cards cards-2"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-2-0-2 submit-cards cards-2"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-2-1-0 submit-cards cards-2"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-2-1-1 submit-cards cards-2"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-2-1-2 submit-cards cards-2"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-2-2-0 submit-cards cards-2"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-2-2-1 submit-cards cards-2"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-2-2-2 submit-cards cards-2"><div class="face face-background"></div></div>
+
+<div class="card submitted-three-pokers-3-0-0 submit-cards cards-3"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-3-0-1 submit-cards cards-3"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-3-0-2 submit-cards cards-3"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-3-1-0 submit-cards cards-3"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-3-1-1 submit-cards cards-3"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-3-1-2 submit-cards cards-3"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-3-2-0 submit-cards cards-3"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-3-2-1 submit-cards cards-3"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-3-2-2 submit-cards cards-3"><div class="face face-background"></div></div>
+
+<div class="card submitted-three-pokers-4-0-0 submit-cards cards-4"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-4-0-1 submit-cards cards-4"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-4-0-2 submit-cards cards-4"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-4-1-0 submit-cards cards-4"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-4-1-1 submit-cards cards-4"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-4-1-2 submit-cards cards-4"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-4-2-0 submit-cards cards-4"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-4-2-1 submit-cards cards-4"><div class="face face-background"></div></div>
+<div class="card submitted-three-pokers-4-2-2 submit-cards cards-4"><div class="face face-background"></div></div>
+
+<div id="gameover" class="sandao">
+	
+	<p class="pity prepare">
+		准备新的一局
+	</p>
+	<p class="pity over">
+		结束
+	</p>
+</div>
+
+<!--script src="dist/deck.js"></script>
+<script src="js/example.js"></script-->
+
+</body>
+</html>
